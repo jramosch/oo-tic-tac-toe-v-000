@@ -94,7 +94,6 @@ class TicTacToe
   end
   
   def play
-    turn
     if over?
       puts "Congratulations #{winner}!" if won?
       puts "Cat's Game!" if draw?
