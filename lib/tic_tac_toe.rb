@@ -94,5 +94,14 @@ class TicTacToe
   end
   
   def play
+    while !over?
+    puts "Please enter a number between 1-9"
+    turn(board)
+  end
+  if won?(board)
+    puts "Congratulations #{winner(board)}!"
+  elsif draw?(board)
+    puts "Cat's Game!"
+  end
   end
 end
