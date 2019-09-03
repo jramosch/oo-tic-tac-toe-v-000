@@ -95,6 +95,7 @@ class TicTacToe
   
   def play
     turn if !over?
-    puts ""
+    puts "Congratulations #{winner}!" if won?
+    puts "Cat's Game!" if draw?
   end
 end
