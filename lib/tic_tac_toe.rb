@@ -90,6 +90,6 @@ class TicTacToe
   end
   
   def winner
-    return @board[combo[0]] if won?
+    return @board[won?[0]] if won?
   end
 end
