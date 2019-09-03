@@ -88,4 +88,7 @@ class TicTacToe
     return true if draw? || won?
     return false if !full?
   end
+  
+  def winner
+  end
 end
